@@ -100,13 +100,13 @@ header nav ul li a {
 }
 
 .project-one {
-    flex: 0 45%;
+    flex: 0 60%;
     background-image: url("./Images/run-buddy-8bit.jpeg");
     background-size: cover;
     background-position: 80%;
     border-radius: 5%;
     box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.50);
-    height: 600px;
+    height: 400px;
 }
 
 
@@ -242,6 +242,39 @@ header nav ul li a {
 }
 
 .project-four h4 {
+    font-size: 24px;
+    background-color: rgba(255, 255, 255, 0.0);
+    padding-bottom: 10px;
+    text-align: center;
+    line-height:1.5;
+    color:wheat;
+    text-shadow: 5px 0 0 rgba(50, 24, 177, 1.0);
+}
+
+.project-five {
+    background-image:url("./Images/8-bit-grouper.jpeg");
+    background-size: 100%;
+    background-position: center;
+    border-radius: 5%;
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.50);
+    height: 450px;
+    flex: 0 70%;
+    margin: 30px auto;
+}
+
+.project-five:hover {
+    background-image:url("./Images/6da421ae-c499-47bc-849f-eb322f8b1ff1.gif");
+    background-position: center;
+    background-size: 100%;
+    box-shadow: 10px 10px 10px rgba(155, 155, 255, 1.0);
+}
+
+.project-five a {
+    text-decoration: none;
+    flex-wrap: wrap;
+}
+
+.project-five h4 {
     font-size: 24px;
     background-color: rgba(255, 255, 255, 0.0);
     padding-bottom: 10px;
